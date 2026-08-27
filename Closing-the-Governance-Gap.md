@@ -2,9 +2,9 @@
 
 ## The Problem
 
-As our organization accelerated its adoption of public cloud platforms — with identities spanning on-premises infrastructure and multi-cloud environments (Azure, GCP, IBM) — a critical gap became clear: the internal normative framework governing identity and access management had not kept pace with the environment it was supposed to control.
+Cloud adoption consistently outpaces identity governance. Normative frameworks written for on-premises realities are frequently silent on non-human identity (NHI) lifecycle, on the on-premises-to-cloud trust boundary, and on accountability when identities cross that boundary. This case study describes an approach to closing that gap in a hybrid, multi-cloud environment (Azure, GCP, IBM).
 
-The existing policies were fragmented across legacy documentation, written for an on-premises-only reality, and silent on key questions that modern cloud adoption demands:
+In organizations facing this challenge, existing policies are typically fragmented across legacy documentation, written for an on-premises-only reality, and silent on key questions that modern cloud adoption demands:
 
 - How should access be granted, reviewed, and revoked for **human accounts** operating across hybrid on-prem/cloud boundaries?
 - How should **non-human identities (NHIs)** — service accounts, API keys, workload identities, automation credentials — be provisioned, scoped, and monitored?
@@ -49,10 +49,13 @@ Draft normatives were reviewed against real operational scenarios and refined fo
 ## Business Impact
 
 - **Audit readiness:** Current, framework-aligned documentation replaces outdated policy that could not withstand internal or external audit scrutiny.
-- **Reduced identity risk:** Explicit lifecycle and least-privilege rules for NHIs close a blind spot that is increasingly exploited as automation and cloud adoption scale.
-- **Consistency across hybrid environments:** Clear rules at the on-prem/cloud boundary reduce the inconsistent, team-by-team interpretation that previously existed.
-- **Foundation for scale:** As the organization continues expanding cloud and automation initiatives — including AI-driven and agentic workloads — the governance foundation is now in place to extend rather than rebuild from scratch.
+- **Scope of the normative rebuild:** 2 internal normatives reviewed, consolidated, or newly created to close the gap.
+- **Non-human identities brought into governed scope:** service accounts, API keys, workload identities, managed identities, and CI/CD pipeline credentials, among others — approximately 8 NHI types/categories previously governed by ambiguous or borrowed human-account policy.
+- **Reach across the environment:** normatives applied across 3 public cloud platforms and adopted by 6 teams/business areas previously operating under inconsistent, team-by-team interpretation of access rules.
+- **Reduced identity risk:** explicit lifecycle and least-privilege rules for NHIs close a blind spot that is increasingly exploited as automation and cloud adoption scale.
+- **Foundation for scale:** as cloud and automation initiatives continue to expand, the governance foundation is now in place to extend rather than rebuild from scratch.
 
 ---
 
-*This case study reflects governance and IAM policy work performed as part of my role in cloud identity governance, focused on multi-cloud environments (Azure, GCP, IBM) and the integration between on-premises and public cloud identity ecosystems.*
+*This case study reflects a governance and IAM policy framework designed to address identity governance gaps in hybrid on-premises and public cloud environments (Azure, GCP, IBM), covering both human and non-human identity access.*
+
