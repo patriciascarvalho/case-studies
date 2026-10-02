@@ -55,6 +55,8 @@ Draft normatives were reviewed against real operational scenarios and refined fo
 - **Reduced identity risk:** explicit lifecycle and least-privilege rules for NHIs close a blind spot that is increasingly exploited as automation and cloud adoption scale.
 - **Foundation for scale:** as cloud and automation initiatives continue to expand, the governance foundation is now in place to extend rather than rebuild from scratch.
 
+[Control Mapping Matrix](./Control-Mapping-Matrix.md)
+
 ---
 
 *This case study reflects a governance and IAM policy framework designed to address identity governance gaps in hybrid on-premises and public cloud environments (Azure, GCP, IBM), covering both human and non-human identity access.*
