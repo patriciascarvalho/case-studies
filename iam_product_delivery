@@ -1,4 +1,5 @@
-Case Study: Identity Governance Framework for Non-Human Identities in a Hybrid Multi-Cloud Environment
+Identity Governance Framework for Non-Human Identities in a Hybrid Multi-Cloud Environment
+
 Context
 A large financial services institution operating a hybrid multi-cloud environment (Azure, GCP, IBM) required a governance framework to manage the growing population of Non-Human Identities (NHI) — service accounts, machine identities, API credentials, and workload identities — alongside a parallel effort to establish governance standards for Agentic AI identities entering the environment. No consistent cross-platform policy existed for how these identities were provisioned, certified, or retired, creating regulatory and operational exposure.
 Scope & Role
