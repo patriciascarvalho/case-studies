@@ -1,4 +1,4 @@
-# Case Study: Identity Governance Framework for Non-Human Identities in a Hybrid Multi-Cloud Environment
+# Identity Governance Framework for Non-Human Identities in a Hybrid Multi-Cloud Environment
 
 ## Context
 
